@@ -7,12 +7,13 @@
 				{
 					"name": "Page 1 BG Image",
 					"type" : "image",
-					"content": "http://www.joblo.com/posters/images/full/The-Meg-poster-2.jpg",
 					"zPos" : 1,
 					"defaultAnimation" : null,
 					"frames": [
 						{
-							"time":0.0,
+						  "content": "http://www.joblo.com/posters/images/full/The-Meg-poster-2.jpg",
+							"startTime":0.0,
+							"duration":0.2,
 							"props" : {
 								"pos": {
 										"x": 0,
@@ -28,7 +29,8 @@
 							"curve":"linear"
 						},
 						{
-							"time":1.0,
+							"startTime":1.0,
+							"duration":0.2,
 							"props" : {
 								"pos": {
 										"x": 0,
@@ -54,7 +56,8 @@
 					"defaultAnimation" : null,
 					"frames": [
 						{
-							"time":0.0,
+							"startTime":0.0,
+							"duration":0.2,
 							"props" : {
 								"pos": {
 										"x": 0,
@@ -70,7 +73,8 @@
 							"curve":"linear"
 						},
 						{
-							"time":1.0,
+							"startTime":1.0,
+							"duration":0.2,
 							"props" : {
 								"pos": {
 										"x": 0,
