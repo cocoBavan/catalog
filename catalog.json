@@ -1,0 +1,105 @@
+{
+	"pages" : [
+		{
+			"pageNo": 1,
+			"pageId": 1,
+			"nodes" : [
+				{
+					"name": "Page 1 BG Image",
+					"type" : "image",
+					"content": "http://www.joblo.com/posters/images/full/The-Meg-poster-2.jpg",
+					"zPos" : 1,
+					"defaultAnimation" : null,
+					"frames": [
+						{
+							"time":0.0,
+							"props" : {
+								"pos": {
+										"x": 0,
+										"y": 0
+									},
+								"size": {
+										"w": 1,
+										"h": 1
+									},
+								"rotation" : 0,
+								"alpha": 1
+							},
+							"curve":"linear"
+						},
+						{
+							"time":1.0,
+							"props" : {
+								"pos": {
+										"x": 0,
+										"y": 0
+									},
+								"size": {
+										"w": 1.1,
+										"h": 1.1
+									},
+								"rotation" : 0,
+								"alpha": 1
+							},
+							"curve":"linear"
+						}
+					]
+					
+				}, 
+				{
+					"name" : "Page 1 Swimming Man",
+					"type" : "image",
+					"content": "https://banner2.kisspng.com/20180322/kzq/kisspng-lamniformes-great-white-shark-fish-clip-art-sharks-5ab42080867010.7227797215217542405507.jpg",
+					"zPos" : 1,
+					"defaultAnimation" : null,
+					"frames": [
+						{
+							"time":0.0,
+							"props" : {
+								"pos": {
+										"x": 0,
+										"y": 0
+									},
+								"size": {
+										"w": 1,
+										"h": 1
+									},
+								"rotation" : 0,
+								"alpha": 1
+							},
+							"curve":"linear"
+						},
+						{
+							"time":1.0,
+							"props" : {
+								"pos": {
+										"x": 0,
+										"y": 0
+									},
+								"size": {
+										"w": 1.1,
+										"h": 1.1
+									},
+								"rotation" : 0,
+								"alpha": 1
+							},
+							"curve":"linear"
+						}
+					]
+				}
+			]
+		},
+		{
+			"pageNo": 2,
+			"pageId": 2
+		},
+		{
+			"pageNo": 3,
+			"pageId": 3
+		},
+		{
+			"pageNo": 4,
+			"pageId": 4
+		}
+	]
+}
