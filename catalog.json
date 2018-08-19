@@ -53,11 +53,11 @@
 					"nodeId":2,
 					"name" : "Page 1 Swimming Man",
 					"type" : "image",
-					"content": "https://banner2.kisspng.com/20180322/kzq/kisspng-lamniformes-great-white-shark-fish-clip-art-sharks-5ab42080867010.7227797215217542405507.jpg",
 					"zPos" : 1,
 					"defaultAnimation" : null,
 					"frames": [
 						{
+							"content": "https://banner2.kisspng.com/20180322/kzq/kisspng-lamniformes-great-white-shark-fish-clip-art-sharks-5ab42080867010.7227797215217542405507.jpg",
 							"startTime":0.0,
 							"duration":0.0,
 							"props" : {
