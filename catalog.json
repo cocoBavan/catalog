@@ -57,7 +57,7 @@
 					"defaultAnimation" : null,
 					"frames": [
 						{
-							"content": "https://banner2.kisspng.com/20180322/kzq/kisspng-lamniformes-great-white-shark-fish-clip-art-sharks-5ab42080867010.7227797215217542405507.jpg",
+							"content": "http://pngimg.com/uploads/shark/shark_PNG18830.png",
 							"startTime":0.0,
 							"duration":0.0,
 							"props" : {
@@ -66,8 +66,8 @@
 										"y": 0
 									},
 								"size": {
-										"w": 1,
-										"h": 1
+										"w": 0.2,
+										"h": 0.2
 									},
 								"rotation" : 0,
 								"alpha": 1
@@ -76,15 +76,15 @@
 						},
 						{
 							"startTime":1.0,
-							"duration":0.2,
+							"duration":5.0,
 							"props" : {
 								"pos": {
-										"x": 0,
-										"y": 0
+										"x": 1.5,
+										"y": 1.5
 									},
 								"size": {
-										"w": 1.1,
-										"h": 1.1
+										"w": 0.2,
+										"h": 0.2
 									},
 								"rotation" : 0,
 								"alpha": 1
