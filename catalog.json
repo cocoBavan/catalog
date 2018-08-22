@@ -9,6 +9,10 @@
 					"name": "Page 1 BG Image",
 					"type" : "image",
 					"zPos" : 1,
+					"anchorPoint" : {
+										"x": 0.5,
+										"y": 0.5
+									},
 					"defaultAnimation" : null,
 					"frames": [
 						{
@@ -17,8 +21,8 @@
 							"duration":0.0,
 							"props" : {
 								"pos": {
-										"x": 0,
-										"y": 0
+										"x": 0.5,
+										"y": 0.5
 									},
 								"size": {
 										"w": 1,
@@ -34,8 +38,8 @@
 							"duration":10,
 							"props" : {
 								"pos": {
-										"x": -0.1,
-										"y": -0.1
+										"x": 0.5,
+										"y": 0.5
 									},
 								"size": {
 										"w": 1.2,
@@ -54,6 +58,10 @@
 					"name" : "Page 1 Swimming Man",
 					"type" : "image",
 					"zPos" : 1,
+					"anchorPoint" : {
+										"x": 0.5,
+										"y": 0.5
+									},
 					"defaultAnimation" : null,
 					"frames": [
 						{
@@ -79,7 +87,7 @@
 							"duration":5.0,
 							"props" : {
 								"pos": {
-										"x": 1.5,
+										"x": 0.5,
 										"y": 1.5
 									},
 								"size": {
