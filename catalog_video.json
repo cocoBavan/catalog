@@ -1,0 +1,42 @@
+{
+	"pages" : [
+		{
+			"pageNo": 1,
+			"pageId": 1,
+			"nodes" : [
+				{
+					"nodeId":1,
+					"name": "Page 1 Bunny Video",
+					"type" : "video",
+					"zPos" : 1,
+					"anchorPoint" : {
+										"x": 0.5,
+										"y": 0.5
+									},
+					"frames": [
+						{
+						  "content": "http://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_1080p_h264.mov",
+							"startTime":0.0,
+							"duration":0.0,
+							"props" : {
+								"pos": {
+										"x": 0.5,
+										"y": 0.5
+									},
+								"size": {
+										"w": 1,
+										"h": 1
+									},
+								"rotation" : 0,
+								"alpha": 1
+							},
+							"curve":"linear",
+							"defaultAnimation" : null,
+              			  	"loopCount":-1
+						}
+					]
+				}
+			]
+		}
+	]
+}
