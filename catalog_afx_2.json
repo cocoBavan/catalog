@@ -1,0 +1,91 @@
+{
+	"pages" : [
+		{
+			"pageNo": 1,
+			"pageId": 1,
+			"nodes" : [
+				{
+					"nodeId":1,
+					"name": "Page 1 BG Image",
+					"type" : "image",
+					"zPos" : 1,
+					"anchorPoint" : {
+										"x": 0.5,
+										"y": 0.5
+									},
+					"defaultAnimation" : null,
+					"frames": [
+						{
+						  "content": "http://www.joblo.com/posters/images/full/The-Meg-poster-2.jpg",
+							"startTime":0.0,
+							"duration":0.0,
+							"props" : {
+								"pos": {
+										"x": 0.5,
+										"y": 0.5
+									},
+								"size": {
+										"w": 1,
+										"h": 1
+									},
+								"rotation" : 0,
+								"alpha": 1
+							},
+							"curve":"linear"
+						},
+						{
+							"startTime":0.1,
+							"duration":10,
+							"props" : {
+								"pos": {
+										"x": 0.5,
+										"y": 0.5
+									},
+								"size": {
+										"w": 1.2,
+										"h": 1.2
+									},
+								"rotation" : 0,
+								"alpha": 1
+							},
+							"curve":"linear"
+						}
+					]
+					
+				}, 
+				{
+					"nodeId":2,
+					"name" : "Page 1 Jumping Man",
+					"type" : "afx",
+					"zPos" : 1,
+					"anchorPoint" : {
+										"x": 0.5,
+										"y": 0.5
+									},
+					"frames": [
+						{
+							"content": "https://rawgit.com/airbnb/lottie-android/master/LottieSample/src/main/assets/LottieLogo1.json",
+							"startTime":0.0,
+							"duration":0.0,
+							"props" : {
+								"pos": {
+										"x": 0,
+										"y": 0
+									},
+								"size": {
+										"w": 0.4,
+										"h": 0.4
+									},
+								"rotation" : 0,
+								"alpha": 1
+							},
+							"defaultAnimation" : null,
+							"curve":"linear",
+							"loopCount": -1
+						}
+					]
+				}
+			]
+		}
+	]
+}
