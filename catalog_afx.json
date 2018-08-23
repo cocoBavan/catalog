@@ -55,17 +55,16 @@
 				}, 
 				{
 					"nodeId":2,
-					"name" : "Page 1 Swimming Man",
-					"type" : "image",
+					"name" : "Page 1 Jumping Man",
+					"type" : "afx",
 					"zPos" : 1,
 					"anchorPoint" : {
 										"x": 0.5,
 										"y": 0.5
 									},
-					"defaultAnimation" : null,
 					"frames": [
 						{
-							"content": "http://pngimg.com/uploads/shark/shark_PNG18830.png",
+							"content": "https://rawgit.com/cocoBavan/catalog/master/pumped_up.json",
 							"startTime":0.0,
 							"duration":0.0,
 							"props" : {
@@ -74,46 +73,19 @@
 										"y": 0
 									},
 								"size": {
-										"w": 0.2,
-										"h": 0.2
+										"w": 0.4,
+										"h": 0.4
 									},
 								"rotation" : 0,
 								"alpha": 1
 							},
-							"curve":"linear"
-						},
-						{
-							"startTime":1.0,
-							"duration":5.0,
-							"props" : {
-								"pos": {
-										"x": 0.5,
-										"y": 1.5
-									},
-								"size": {
-										"w": 0.2,
-										"h": 0.2
-									},
-								"rotation" : 0,
-								"alpha": 1
-							},
-							"curve":"linear"
+							"defaultAnimation" : null,
+							"curve":"linear",
+							"loopCount": -1
 						}
 					]
 				}
 			]
-		},
-		{
-			"pageNo": 2,
-			"pageId": 2
-		},
-		{
-			"pageNo": 3,
-			"pageId": 3
-		},
-		{
-			"pageNo": 4,
-			"pageId": 4
 		}
 	]
 }
