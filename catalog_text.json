@@ -49,6 +49,11 @@
 								"alpha": 1
 							},
 							"curve":"linear"
+						},
+						{
+							"startTime":0.1,
+							"duration":1,
+							"defaultAnimation":"blur"
 						}
 					]
 					
@@ -62,7 +67,11 @@
 										"x": 0.5,
 										"y": 0.5
 									},
-					"defaultAnimation" : "type",
+					"font":{
+						"name":"sans-serif-black",
+						"size":"25",
+						"style":"bold"
+					},
 					"frames": [
 						{
 							"content": "Hello",
@@ -80,7 +89,9 @@
 								"rotation" : 0,
 								"alpha": 1
 							},
-							"curve":"linear"
+							"defaultAnimation" : "type",
+							"curve":"linear",
+							"color":"#ffffff"
 						},
 						{
 						  "content": "How are you?",
@@ -98,7 +109,9 @@
 								"rotation" : 0,
 								"alpha": 1
 							},
-							"curve":"linear"
+							"defaultAnimation" : "type",
+							"curve":"linear",
+							"color":"#ffffff"
 						}
 					]
 				}
